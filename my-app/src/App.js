@@ -1,4 +1,5 @@
 import React from 'react'
+import './App.css'
 import logo from './logo.svg';
 import './App.css';
 import Header from './Component/Header/header.jsx'
@@ -8,9 +9,9 @@ import Footer from './Component/Footer/footer.jsx'
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <Main />
-      <Footer /> 
+      {/* <Footer />  */}
     </>
   );
 }
